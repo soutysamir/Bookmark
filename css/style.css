@@ -1,0 +1,66 @@
+body{
+    background-color: #F7ECDE;
+}
+
+.btn-submit {
+
+padding-inline: 50px;
+padding-bottom: 10px;
+--bs-btn-bg: #d1512d;
+--bs-btn-border-color: #d1512d;
+ --bs-btn-hover-color: #fff;
+--bs-btn-hover-bg: #bb4120;
+--bs-btn-hover-border-color: #a03315;
+color: #fff;
+}
+.line-dot{
+    border-bottom: 2px dotted;
+    padding: 20px;
+    margin-inline: 5%;
+  
+}
+
+.btn-visit {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9eb23b;
+    --bs-btn-border-color: #9eb23b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8a9e23;
+    --bs-btn-hover-border-color: #6e8018;
+    }
+    .btn-delete {
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #eb1d36;
+        --bs-btn-border-color: #eb1d36;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #d30820;
+        --bs-btn-hover-border-color: #ba081d;
+        }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.spinners-grow {
+    --bs-spinner-width: 1rem;
+    --bs-spinner-height: 1rem;
+    --bs-spinner-vertical-align: -0.125em;
+    --bs-spinner-animation-speed: 0.75s;
+    --bs-spinner-animation-name: spinner-grow;
+    background-color: currentcolor;
+    opacity: 1;
+}
+.spinner-border, .spinners-grow {
+    display: inline-block;
+    width: var(--bs-spinner-width);
+    height: var(--bs-spinner-height);
+    vertical-align: var(--bs-spinner-vertical-align);
+    border-radius: 50%;
+    animation: none;
+}
+h4{
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+}
+h1{
+    font-family: "Pacifico", cursive;
+}
